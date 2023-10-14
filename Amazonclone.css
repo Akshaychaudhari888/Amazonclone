@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size: cover;
+   height:50px;
+   width:100%;
+}
+.boder{
+    border:1px solid transparent;
+}
+.border:hover{
+  border:1px solid white;
+}
+.add-first{
+    color:#cccccc;
+    margin-left:15px;
+}
+.add-second{
+    font-size:1rem;
+    margin:3px;
+}
+.add-icon{
+    display:flex;
+}
+.nav-search{
+    display:flex;
+    background-color:#FEBD69;
+    width:620px;
+    height: 40px;
+    border-radius:3px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    border-radius:3px;
+    border:none;
+}
+.search-input{
+    width:500px;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black; 
+}
+.nav-search:hover{
+ border:2px solid orange;
+}
+.cart {
+    display: flex;
+    height:15px;
+}
+.pannel{
+    height: 40px;
+    background-color:#222f32 ;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.pannel-option p{
+ display:inline;
+ margin-left:15px;
+}
+.pannel-option{
+    width: 80%;
+    font-size:0.9ren;
+ } 
+ .hero-section{
+    background-image:url("hero_image.jpg");
+    background-size:cover;
+    height:300px; 
+ }
+ .box{
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 25px;
+    margin-top:15px;
+ }
+ .shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6 ;
+ } 
+ .box-image{
+   height:300px;
+   margin-top:1rem;
+   background-size: cover;
+   margin-bottom:1rem;
+ }
+  .box-content{
+    margin-left:10px; 
+    margin-right:10px;
+  }
+  footer{
+    margin-top:15px;
+  }
+  .foot-panal1{
+    color:white;
+    background-color:#37475a;
+    margin-left: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+    margin-left: 0px;
+}
+.foot-panal3{
+    height:100px;
+    background-color:#020f1e;
+    text-align: center;
+    padding-top:35px;
+}
+.foot-panal2{
+    padding-top:30px;
+    height:200px;
+    background-color:#062d5a;
+    text-align: center;
+    font-size: 20px;
+}
